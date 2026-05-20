@@ -1,0 +1,1 @@
+model name	: Intel(R) Celeron(R) CPU  N2807  @ 1.58GHz
