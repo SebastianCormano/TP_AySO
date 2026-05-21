@@ -1,0 +1,197 @@
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+pwd
+whoiam
+clear
+whoami
+clear
+cat << END
+t
+s
+END
+
+clear
+cat << END | xclip
+T
+L
+END
+
+clear
+ssh-keygen
+ls -al
+cd .ssh/
+ls -al
+rm id_rsa id_rsa.pub 
+cd ../
+clear
+ls
+clear
+ssh-add -D
+ssh-add -l
+ssh-keygen
+clear
+ssh-add -l
+ls
+ls -al
+cd .ssh/
+cler
+clear
+ls
+cat id_rsa.pub 
+sudo apt install git
+clear
+cd ../
+exit
+clear
+cd
+ls
+clear
+cd
+mkdir repogit
+man mkdir
+clear
+man mkdir
+mkdir -p repogit
+ls
+cd repogit/
+git clone git@github.com:SebastianCormano/TP_AySO.git
+clear
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/passwd
+man grep
+grep -i UBUNTU /etc/passwd
+grep UBUNTU /etc/passwd
+grep ubuntu /etc/passwd
+sudo grep ubuntu /etc/shadow | awk -F':' '{print $2} | echo
+
+f
+q
+ls
+clear
+ls
+sudo grep ubuntu /etc/shadow | awk -F':' '{print $2} | cat
+
+
+End
+
+exit
+
+exit
+
+clear
+clcearar
+clearasl
+cleaclearclñear
+clear
+clñear
+clear
+ls
+cd repogit/
+clear
+ls
+cd TP_AySO/
+clear
+grep ubuntu /etc/shadow | awk -F':' '{print $2}'
+sudo grep ubuntu /etc/shadow | awk -F':' '{print $2}'
+grep -i ubuntu /etc/passwd
+cat /etc/shadow
+sudo cat /etc/shadow
+clear
+sudo grep ubuntu /etc/shadow | awk -F':' '{print $2}' > datos_usuario.txt
+ls
+whoami
+echo "Usuario=$(whoami)" >> datos_usuario.txt 
+cat datos_usuario.txt 
+git add .
+git config --global user.email "sebastiancormano9@gmail.com"
+git config --global user.name "SebastianCormano"
+git commit -m "ADD:agregado 1er ejercicio sobre datos_usuarios_txt"
+git status
+ls /proc
+sudo ls /proc/cpuinfo | grep "model name"
+sudo ls -al /proc/cpuinfo | grep "model name"
+sudo ls -al /proc/cpuinfo
+sudo ls -al /proc/cpuinfo/
+clear
+cat /proc/cpuinfo | grep "model name"
+cat /proc/cpuinfo | grep "model name" | head -n 1
+cat /proc/cpuinfo | grep "model name" | head -n 1 >> info_pc.txt
+cat info_pc.txt 
+clear
+git add .
+git commit -m "feat: Añadiendo informacion de CPU"
+man sort
+man grep
+sudo grep -v "bin/false" /etc/passwd | head | sort -t ":" -k7,7
+sudo grep -v "sbin/nologin" /etc/passwd | head | sort -t ":" -k7,7
+sudo grep -v "sbin/nologin" /etc/passwd | grep "/bin/false" | head | sort -t ":" -k7,7
+sudo grep -v "sbin/nologin" /etc/passwd | grep -v "/bin/false" | head | sort -t ":" -k7,7
+cat /etc/passwd
+sudo grep -v "sbin/nologin" /etc/passwd | grep -v "/bin/false" | head | sort -t ":" -k7,7
+sudo grep -v "sbin/nologin" /etc/passwd | grep -v "/bin/false" | head | sort -t ":" -k7,7 >> lista_ordenada
+clear
+cat lista_ordenada 
+clear
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+cat << END >> README.md 
+Alumno: Sebastian Cormano
+Division: 116
+Turno: Mañana
+END
+
+cat README.md 
+git add .
+git commit -m "Informativo: Agregamos informacion de usuario a README.md"
+clear
+cd
+mkdir -p TP1/{arquitectura/Clase{1..5}, so/Clase{1,6}}
+sudo snap install tree
+tree TP1/
+rm -r TP1
+ls
+rm so
+rm -r so
+clear
+ls
+mkdir -p TP1/{arquitectura/Clase{1..5},so/Clase{1,6}}
+tree TP1/
+rm -r TP1
+ls
+clear
+mkdir -p TP1/{arquitectura/Clase{1..5},so/Clase{1..6}}
+tree TP1
+ls
+cd repogit/
+cd TP_AySO/
+ls
+clear
+vim script_dir.sh
+ls
+clear
+ls -al
+sudo chmod +x script_dir.sh 
+ls -al
+./script_dir.sh 
+ls
+tree TP1
+rm -r TP1/
+ls -al
+clear
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+clear
+git status
+man history 
+history -a
+ls ../../
+ls -al ../../
+cp ../../bash_history Historial_comandos_CormanoSebastian.txt
